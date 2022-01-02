@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ 
+:root{
+    --font1: 'Courier New', Courier, monospace;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar{
+    padding: 20px;
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3em;
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+
+.nav-item{
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+main{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.192);
+    background-image: url('https://source.unsplash.com/random');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--font1);
+}
+
+h1{
+    padding-top: 15%;
+    font-variant: small-caps;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.by{
+    font-variant: small-caps;
+    font-size: 1em;
+    text-align: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.poem{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+section > pre{
+    white-space: pre-line;
+    line-height: 2em;
+    font-family: var(--font1);
+    font-size: 1.3em;
+    color: #000
+}
+
+.maquina{
+    width: 72%;
+    margin-top: -7%;
+    margin-left: 13%;
+}
+
+footer > p{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}

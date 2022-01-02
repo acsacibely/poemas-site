@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/*GLOBAL STYLE*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: 'Courier New', Courier, monospace;
+}
+
+/*NAVBAR*/
+.navbar{
+    padding: 20px;
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3em;
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+
+.nav-item{
+    font-size: 1.1em;
+}
+
+#title::after{
+    content: '|';
+    opacity: 1;
+    /*animation:  pisca 1s infinite;*/
+}
+
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+/*CAROUSEL*/
+a.main-btn{
+    text-decoration: none;
+    color: #fff;
+}
+
+a.main-btn:hover{
+    text-decoration: underline;
+}
+
+/*POEMS AREA*/
+.main-title{
+    margin: 2% 0 ;
+    text-align: center;
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+
+.project-box{
+    margin-bottom: 30px;
+}
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#poems-area .filter-btn, .btn-light{
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    border-radius: 15px;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#poems-area .filter-btn.active, #poems-area .filter-btn:hover, .btn-light:hover{
+    color: #FFF;
+    background-color: #272425fb;
+    border-color: #272425fb;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-title{
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+
+div.card-body.poem-dev{
+    padding: 28.5px;
+}
+
+div.card-body.poem-veo{
+    padding: 27.5px;
+}
+
+/*FOOTER*/
+footer > p{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}

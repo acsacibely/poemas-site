@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/*GLOBAL STYLE*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: 'Courier New', Courier, monospace;
+}
+
+body{
+    min-height: 100vh;  
+}
+
+/*NAVBAR*/
+.navbar{
+    padding: 20px;
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3em;
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+
+.nav-item{
+    font-size: 1.1em;
+}
+
+/*MAIN*/
+body{
+    background-image: url('https://mundodelivros.com/wp-content/uploads/2015/11/fernandopessoa-capa.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+h1.author-name, p.biography{
+    width: 50%;
+    padding: 10px;
+    margin: 0 0 0 50px;
+    color: #fff;
+}
+
+h1.author-name{
+    padding-top: 10%;
+    font-family: var(--font1);
+    font-variant: small-caps;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+p.biography{
+    text-align: left;
+    font-size: 1.2em;
+}
+
+p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+/*FOOTER*/
+footer{
+    background-color: transparent;
+}
+footer p{
+    color: #fff;
+    padding: 50px 0 10px 10px;
+    margin-left: 50px;
+}
+
+@media ( max-width: 878px){
+    h1.author-name{
+        padding-top: 17%;
+    }
+    main{
+        background-position: right;
+    }
+
+}
+
+@media ( max-width: 878px){
+    h1.author-name{
+        padding-top: 23%;
+    }
+
+}
