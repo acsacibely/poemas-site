@@ -115,3 +115,9 @@ footer > p{
     padding: 10px;
     margin: 0px;
 }
+
+@media (max-width:520px){
+    .carousel{
+        margin-top: 50px;
+    }
+}

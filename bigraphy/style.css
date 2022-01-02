@@ -99,3 +99,9 @@ footer p{
     }
 
 }
+
+@media (max-width:520px){
+    .carousel{
+        margin-top: 50px;
+    }
+}
