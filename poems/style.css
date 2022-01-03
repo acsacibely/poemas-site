@@ -36,8 +36,6 @@ body{
 
 main{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.192);
-    background-image: url('https://source.unsplash.com/random');
-    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     font-family: var(--font1);
@@ -96,8 +94,7 @@ footer > p{
     margin: 0px;
 }
 
-@media (max-width:540px){
-    .carousel{
-        margin-top: 50px;
-    }
+@media (max-width: 768px){
+    .poem{
+        width: 100%;}
 }
