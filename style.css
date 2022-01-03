@@ -99,11 +99,11 @@ a.main-btn:hover{
     font-weight: bolder;
 }
 
-div.card-body.poem-dev{
+.poem-dev{
     padding: 28.5px;
 }
 
-div.card-body.poem-veo{
+.poem-veo{
     padding: 27.5px;
 }
 
