@@ -36,21 +36,21 @@ body{
 
 /*MAIN*/
 body{
-    background-image: url('https://www.rbsdirect.com.br/imagesrc/17883527.jpg?w=700');
+    background-image: url('./1.png');
     background-size: cover;
     background-attachment: fixed;
 
 
 }
 
-h1.author-name, p.biography{
+h1.about-name, p.about-text{
     width: 50%;
     padding: 10px;
     margin: 0 0 0 50px;
-    color: #000;
+    color: #fff;
 }
 
-h1.author-name{
+h1.about-name{
     padding-top: 10%;
     font-family: var(--font1);
     font-variant: small-caps;
@@ -58,7 +58,7 @@ h1.author-name{
     font-weight: bolder;
 }
 
-p.biography{
+p.about-text{
     text-align: left;
     font-size: 1.2em;
     font-weight: 500;
@@ -66,12 +66,12 @@ p.biography{
 
 p a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 p a:hover{
     text-decoration: underline;
-    color: #000;
+    color: #fff;
 }
 
 /*FOOTER*/
@@ -79,13 +79,13 @@ footer{
     background-color: transparent;
 }
 footer p{
-    color: #000;
+    color: #fff;
     padding: 50px 0 10px 10px;
     margin-left: 50px;
 }
 
 @media ( max-width: 878px){
-    h1.author-name{
+    h1.about-name{
         padding-top: 17%;
     }
     main{
@@ -95,7 +95,7 @@ footer p{
 }
 
 @media ( max-width: 878px){
-    h1.author-name{
+    h1.about-name{
         padding-top: 23%;
     }
 

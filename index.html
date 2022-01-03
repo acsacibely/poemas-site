@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!--METADADOS IMPORTANTES PARA A ESTRUTURA E RESOLUÇÃO DO SITE-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pessoa Experience</title>
-    <!--ICON-->
-    <link rel="shortcut icon" href="./img/hat.png" type="image/x-icon">
-
-   
+    <!--ICONE DE ABA-->
+    <link rel="shortcut icon" href="./img/hat.png" type="image/x-icon">   
     <!--BOOTSTRAP CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <!--CSS-->
     <link rel="stylesheet" href="./style.css">
-
     <!--BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -31,20 +28,22 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex justify-content-center">
                 <div class="container-fluid">
+                    <!--TÍTULO PRINCIPAL-->
                     <a class="navbar-brand" id="title" href="#">Pessoa Experience</a>
-                    <!---->
+                    <!--TOOGGLE PARA TELAS RESPONSIVAS-->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
+                        <!--LISTA DE ITENS DA BARRA DE NAVEGAÇÃO-->
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Sobre nós</a>
+                                <a class="nav-link" href="./about/about.html">Sobre nós</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./bigraphy/biography.html">Biografia</a>
@@ -63,9 +62,9 @@
 
     <main>
         <!--CARROSSEL - CAROUSEL-->      
-        <!--SLIDER-->
         <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
+                <!--INDICADORES - BOTÕES-->
                 <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -75,8 +74,9 @@
                 <div class="carousel-item active">
                     <img src="https://magdabeatriz.com.br/wp-content/uploads/2018/10/fernando-pessoa-revista-estante-fnac-700x435.jpg" class="d-block w-100" alt="/////">
                     <div class="carousel-caption d-md-block">
+                        <!--TÍTULO E DESCRIÇÃO DE CADA IMAGEM DE SLIDER -->
                         <h2>Sobre Fernando Pessoa</h2>
-                        <p>Fernando Pessoa é o mais universal poeta português. Por ter sido educado na África do Sul, numa escola católica irlandesa, chegou a ter maior familiaridade com o idioma inglês do que com o português ao escrever os seus primeiros poemas nesse idioma. </p>
+                        <p class="carousel-text">Fernando Pessoa é o mais universal poeta português. Por ter sido educado na África do Sul, numa escola católica irlandesa, chegou a ter maior familiaridade com o idioma inglês do que com o português ao escrever os seus primeiros poemas nesse idioma. </p>
                         <a href="./bigraphy/biography.html" target="_blank" rel="external" class="main-btn">Ver sua biografia</a>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     <img src="https://narrativasdigitais.pt/images/blogue/2021/fernando_pessoa_mural_faculdade_letras.jpg" class="d-block w-100" alt="/////">
                     <div class="carousel-caption d-md-block">
                         <h2>Pessoa e seus heterônimos</h2>
-                        <p>Heteronimos são nomes criados para uma nova personalidade, utilizado por Fernando Pessoa para assinar diferentes obras com essas suas personalidades assumidas, sendo elas as mais utilizadas: Alberto Caeiro, Ricardo Reis e Álvaro de Campo</p>
+                        <p class="carousel-text">Heteronimos são nomes criados para uma nova personalidade, utilizado por Fernando Pessoa para assinar diferentes obras com essas suas personalidades assumidas, sendo elas as mais utilizadas: Alberto Caeiro, Ricardo Reis e Álvaro de Campo</p>
                         <a href="https://www.google.com/amp/s/www.todamateria.com.br/heteronimos-de-fernando-pessoa/amp/" class="main-btn" target="_blank" rel="external">Saiba mais</a>
                     </div>
                 </div>
@@ -92,13 +92,13 @@
                     <img src="https://media.gazetadopovo.com.br/2021/08/25173114/livros-stocksnap-pixabay-960x540.jpg" class="d-block w-100" alt="////">
                     <div class="carousel-caption d-md-block">
                         <h2>Pessoa e seus poemas</h2>
-                        <p>O poeta é um fingidor./Finge tão completamente/Que chega a fingir que é dor/A dor que deveras sente.</p>
+                        <p class="carousel-text">O poeta é um fingidor./Finge tão completamente/Que chega a fingir que é dor/A dor que deveras sente.</p>
                         <a href="https://imprensanacional.pt/fernando-pessoa/" class="main-btn" target="_blank" rel="external" >Veja mais</a>
                     </div>
                 </div>
             </div>
 
-            <!--AS SETINHAS-->
+            <!--AS SETINHAS DIREITA E ESQUERDA-->
             <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -109,15 +109,14 @@
               </button>
         </div>
 
-        <!--ALA DE BIOGRAFIA-->
-        <!--CARDS PARA OS POEMAS-->
+        <!--ÁREA DOS PRINCIPAIS POEMAS-->
         <div id="poems-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="main-title">Conheça os principais poemas</h3>
                     </div>
-                    <!--botões de navegação-->
+                    <!--BOTÔES DE NAVEGAÇÃO/ANIMAÇÃO FEITA COM JS-->
                     <div class="col-md-12" id="filter-btn-box">
                         <button class="main-btn filter-btn" id="dev-btn">Fernando Pessoa</button>
                         <button class="main-btn filter-btn" id="dsg-btn">Alberto Caeiro</button>
@@ -126,7 +125,7 @@
                         <button class="main-btn filter-btn active" id="all-btn">Todos os poemas</button>
 
                     </div>
-                    <!--fotos do portfólio-->
+                    <!--CARDS-->
                     <div class="col-sm-3 project-box dev">
                         <div class="card">
                             <div class="card-body poem-dev">
@@ -214,10 +213,11 @@
 
     </main>
 
+    <!--FOOTER - RODAPÉ-->
     <footer>
         <p>&copy; Copyright 2022 Pessoa Experience</p>
     </footer>
-
+    <!--LINK PARA O ARQUIVO .JAVASCRIPT-->
     <script src="./script.js"></script>  
 </body>
 </html>

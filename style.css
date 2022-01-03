@@ -116,8 +116,24 @@ footer > p{
     margin: 0px;
 }
 
-@media (max-width:520px){
+@media (max-width:540px) {
     .carousel{
         margin-top: 50px;
     }
 }
+
+@media (max-width: 468px) {
+    .carousel{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 438px) {
+    h2{
+        font-size: 15px;
+    }
+    .carousel-text {
+        font-size: 12px;
+    }
+}
+
